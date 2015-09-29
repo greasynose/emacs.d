@@ -29,6 +29,8 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 
 
-
+(require 'init-core)
 (require 'init-company)
+(require 'init-org)
 (require 'init-python)
+(require 'init-php)
